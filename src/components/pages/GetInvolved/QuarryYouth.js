@@ -52,14 +52,13 @@ class QuarryYouth extends Component {
                               We want to <strong>Win</strong> the youth to Christ, <strong>Build</strong> them up in their faith and equip them to live as Christians to be <strong>Sent</strong> out to reach those in their community.<br /><br />
 
                               <strong>Time:</strong><br />
-                              Friday Night @ 7-9pm<br />
+                              Friday Night @ 5:30-7:30pm<br />
                               <strong>Location</strong><br />
                               <a href="https://goo.gl/maps/ejALw5wWuCx" rel="noopener noreferrer">Hope Christian Centre, 25 Tasma St. Hobart</a><br /><br />
 
 
 
                               <strong>Contact leader</strong><br />
-                              Elya Richardson: 0428 496 745<br />
                               Email: <a href="mailto:youth@cornerstonehobart.com">youth@cornerstonehobart.com</a><br />
                               Facebook: <a href="https://www.facebook.com/QuarryYouth"> /QuarryYouth</a>
 

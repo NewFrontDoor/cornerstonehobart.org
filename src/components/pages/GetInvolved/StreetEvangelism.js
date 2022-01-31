@@ -36,7 +36,7 @@ class StreetEvangelism extends Component {
                         <div className="content">
                           <div className="row">
                             <div className="col-xs-12">
-                            <p className="ministry-text">Our Evangelist, David Gee, and his team of volunteers regularly proclaim the Gospel in public places in and around Hobart.<br/><br/>
+                            <p className="ministry-text">A team of volunteers regularly proclaim the Gospel in public places in and around Hobart.<br/><br/>
 
                             Our mission is to make the life-changing wisdom of the Bible understandable and accessible to all.<br/><br/>
 

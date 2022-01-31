@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React, { Component } from 'react';
 import _ from 'lodash';
-import congregation from '../../assets/congregation_gs.png'
+import congregation from '../../assets/congregation.png'
 
 /*
 const slides = [{"src": "https://summerleaschurch.org/sites/summerleaschurch.org/files/styles/image_full_width/public/community%20web%20slider.jpg?itok=wztd4SUb",
@@ -79,7 +79,7 @@ class Slider extends Component {
                         <ul className="slides">
                           {/*{slideshow}*/}
 
-                          <img className="img-responsive img-full-width" src={congregation} width="1440" height="900" />
+                          <img className="img-responsive img-full-width" style={{pointerEvents: 'none'}} src={congregation} width="1440" height="900" />
 
                         </ul>
                       </div>
