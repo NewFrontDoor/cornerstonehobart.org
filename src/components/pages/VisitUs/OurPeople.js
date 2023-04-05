@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 //import Male from "../../../assets/people/Male.png";
 //import Female from "../../../assets/people/Female.png";
-import jamesImg from "../../../assets/people/Baker,James.png";
 import simonImg from "../../../assets/people/Boonstra,Simon.png";
 import derrickImg from "../../../assets/people/Clack,Derrick.png";
 import libbyImg from "../../../assets/people/Dilger,Libby.png";
@@ -71,8 +70,6 @@ class OurPeople extends Component {
 																</strong>
 															</p>
 															<br />
-
-															<Person name="James Baker" title="Elder" image={jamesImg} />
 															<Person name="Simon Boonstra" title="Elder" image={simonImg} />
 															<Person name="Derrick Clack" title="Elder" image={derrickImg} />
 															<Person name="Mark Powell" title="Pastor (Teaching Elder)" image={markImg} />
