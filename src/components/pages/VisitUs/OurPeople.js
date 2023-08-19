@@ -75,6 +75,7 @@ class OurPeople extends Component {
 															<Person name="Mark Powell" title="Pastor (Teaching Elder)" image={markImg} />
 															<Person name="Des Richardson" title="Elder" image={desImg} />
 															<Person name="Nathaniel Richardson" title="Elder" image={nathanielImg} />
+															<Person name="Jacco Vonk" title="Elder" image={jaccoImg} />
 														</div>
 													</div>
 													<div className="row">
