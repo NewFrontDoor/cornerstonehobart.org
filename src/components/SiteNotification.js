@@ -26,11 +26,20 @@ class SiteNotification extends Component {
 
 								<h5 className="text-center">
 									<p>
-										Due to the Greek Festival this weekend, Cornerstone Church Service for Sunday 26/2/2023 will be held
-										in the Italian Hall, 77 Federal Street North Hobart.
+										Cornerstone Church Sunday Service is usually held at 10am in the Hellenic Hall, 67 Federal Street,
+										North Hobart.
 									</p>
-									<p>Federal Street will be closed from Argyle Street to Thomas Street.</p>
-									<p>Access to the Italian Hall will be from the Elizabeth Street end of Federal Street.</p>
+									<p>
+										<u>UPCOMING EXCEPTIONS</u>
+									</p>
+									<p>
+										SUNDAY 22 OCTOBER — This is our Church Camp weekend. Our Sunday service will be held at 10am at Blue
+										Lagoon Christian Camp, 41-55 Bally Rd, Dodges Ferry.
+									</p>
+									<p>
+										SUNDAY 29 OCTOBER — Reformation Day Service. This will be held at St John’s Presbyterian Church, 188
+										Macquarie St, Hobart
+									</p>
 								</h5>
 							</span>
 						</div>
