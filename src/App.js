@@ -63,13 +63,13 @@ class App extends Component {
 						<Route exact path="/" component={HomePageWrapper} />
 						<Route path="/:path" component={OtherPageWrapper} />
 
-						<Route
+						{/* <Route
 							exact
 							path={"/"}
 							component={() => (
 								<SiteNotification showNotification={this.state.showNotification} onClose={this.onNotificationClose} />
 							)}
-						/>
+						/> */}
 
 						<Route path="*" component={Footer} />
 					</div>
