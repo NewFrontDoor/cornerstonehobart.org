@@ -33,7 +33,7 @@ import "./assets/css/custom.css";
 import "./assets/css/events.css";
 import "./assets/css/notification.css";
 
-//import SiteNotification from "./components/SiteNotification";
+import SiteNotification from "./components/SiteNotification";
 
 const notificationID = "2023octoberexceptions";
 
