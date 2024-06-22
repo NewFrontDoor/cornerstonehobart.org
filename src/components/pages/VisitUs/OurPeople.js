@@ -9,13 +9,14 @@ import amyImg from "../../../assets/people/Glynn,Amy.png";
 import janeImg from "../../../assets/people/Maarseveen,Jane.png";
 import desImg from "../../../assets/people/Richardson,Des.png";
 import nathanielImg from "../../../assets/people/Richardson,Nathaniel.png";
-import trishImg from "../../../assets/people/Smith,Trish.png";
+//import trishImg from "../../../assets/people/Smith,Trish.png";
 import davidImg from "../../../assets/people/VanEmmerik,David.png";
 import markImg from "../../../assets/people/Mark Powell.jpg";
 import bevanImg from "../../../assets/people/Bevan van Rooyen.jpg";
 import jaccoImg from "../../../assets/people/Jacco Vonk.jpg";
 import robynImg from "../../../assets/people/Robyn van Rooyen.jpg";
 import geraldImg from "../../../assets/people/Gerald Coombe.jpg";
+import soniaImg from "../../../assets/people/Sonia Liang.jpg";
 import Person from "../../models/Person";
 
 class OurPeople extends Component {
@@ -83,7 +84,6 @@ class OurPeople extends Component {
 															<h2 className="header-lightBlue text-center">Deacons</h2>
 															<Person name="Amy Glynn" title="Deacon" image={amyImg} />
 															<Person name="Jane Maarseveen" title="Deacon" image={janeImg} />
-															<Person name="Trish Smith" title="Deacon" image={trishImg} />
 															<Person name="David Van Emmerik" title="Deacon" image={davidImg} />
 															<Person name="Bevan Van Rooyen" title="Deacon" image={bevanImg} />
 														</div>
@@ -106,7 +106,6 @@ class OurPeople extends Component {
 															<Person name="Libby Dilger" title="" image={libbyImg} />
 															<Person name="David Van Emmerik" title="Secretary" image={davidImg} />
 															<Person name="Robyn Van Rooyen " title="Treasurer" image={robynImg} />
-															<Person name="Jacco Vonk" title="" image={jaccoImg} />
 														</div>
 													</div>
 
@@ -117,6 +116,7 @@ class OurPeople extends Component {
 															<div className="row">
 																<Person name="Mark Powell" title="Pastor (Teaching Elder)" image={markImg} />
 																<Person name="Libby Dilger" title="Administrator" image={libbyImg} />
+																<Person name="Sonia Liang" title="Trainee Administrator" image={soniaImg} />
 															</div>
 														</div>
 													</div>

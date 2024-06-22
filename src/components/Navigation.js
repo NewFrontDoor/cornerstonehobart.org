@@ -160,11 +160,7 @@ class Navigation extends Component {
 																					<a href="/WomensMinistry">Women's Ministry</a>
 																				</li>
 																				<li className="tb-megamenu-item level-2 mega">
-																					<a href="/QuarryYouth">Youth Group</a>
-																				</li>
-
-																				<li className="tb-megamenu-item level-2 mega">
-																					<a href="/StreetEvangelism">Street Evangelism</a>
+																					<a href="/YouthDiscipleship">Youth Discipleship</a>
 																				</li>
 
 																				{/*<li className="tb-megamenu-item level-2 mega">
@@ -229,10 +225,6 @@ class Navigation extends Component {
 																			<ul className="tb-megamenu-subnav mega-nav level-1 items-5">
 																				<li className="tb-megamenu-item level-2 mega">
 																					<a href="/WestminsterConfession">Westminster Confession of Faith</a>
-																				</li>
-
-																				<li className="tb-megamenu-item level-2 mega">
-																					<a href="/EngagedCouples">For Engaged Couples</a>
 																				</li>
 																			</ul>
 																		</div>

@@ -27,7 +27,7 @@ class SiteNotification extends Component {
 
 								{/* <h5 className="text-center">Please note upcoming venue changes</h5> */}
 								<div className="text-center" style={{ paddingTop: "1em", paddingBottom: "1em" }}>
-									<img src={venueImage} className="text-center" />
+									<img src={venueImage} className="text-center" style={{ maxWidth: "100%" }} />
 								</div>
 							</span>
 						</div>

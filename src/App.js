@@ -33,20 +33,21 @@ import "./assets/css/custom.css";
 import "./assets/css/events.css";
 import "./assets/css/notification.css";
 
-import SiteNotification from "./components/SiteNotification";
+//import SiteNotification from "./components/SiteNotification";
 
-const notificationID = "2023octoberexceptions";
+//const notificationID = "2023octoberexceptions";
 
 class App extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { showNotification: localStorage.getItem(notificationID) || true };
+		//this.state = { showNotification: localStorage.getItem(notificationID) || true };
+		this.state = { showNotification: true };
 	}
 
-	componentDidMount() {
-		const showNotification = localStorage.getItem(notificationID);
-		this.setState({ showNotification: !showNotification });
-	}
+	// componentDidMount() {
+	// 	const showNotification = localStorage.getItem(notificationID);
+	// 	this.setState({ showNotification: !showNotification });
+	// }
 
 	onNotificationClose = () => {
 		this.setState({ showNotification: false });
