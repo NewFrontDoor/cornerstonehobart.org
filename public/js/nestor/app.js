@@ -1,3 +1,7 @@
+function showup(date, address){
+
+}
+
 (function ($) {
   "use strict;"
 
@@ -49,6 +53,56 @@
     $("#back-to-top").click(function () {
       $("html, body").animate({scrollTop: 0}, 300);
     });
+
+
+    // Define the date and address
+    const date = "THIS Sunday, the 2nd of February 2025";
+    const address = "20 New Town Rd, New Town 7008";
+
+    // Pop-up HTML structure
+    const popupHtml = `
+      <div id="popup-overlay" style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: none;
+        z-index: 999;"></div>
+
+      <div id="popup" style="
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        padding: 20px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        display: none;
+        z-index: 1000;">
+        <p>Please note that <strong>${date}</strong>,<br>
+        Cornerstone will be meeting at the Polish Club instead of our usual location.<br>
+        The address is <strong>${address}</strong>.</p>
+        <button id="popup-close" style="margin-top: 10px; padding: 5px 10px; cursor: pointer;">Close</button>
+      </div>
+    `;
+
+    // Append the pop-up HTML to the body
+    $("body").append(popupHtml);
+
+    // Show pop-up on page load
+    $("#popup, #popup-overlay").fadeIn();
+
+    // Close pop-up on button click
+    $("#popup-close, #popup-overlay").click(function () {
+      $("#popup, #popup-overlay").fadeOut();
+    });
+
+
 
   });
 
