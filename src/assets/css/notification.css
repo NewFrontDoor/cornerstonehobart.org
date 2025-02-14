@@ -25,13 +25,13 @@
     cursor: pointer;
     position: absolute;
     display: block;
-    padding: 2px 5px;
+    padding: 0.5rem;
     line-height: 25px;
-    right: -5px;
-    top: -10px;
-    font-size: 28px;
+    right: 0px;
+    top: 0px;
+    font-size: 2rem;
     background: #ffffff;
-    border-radius: 30px;
+    border-radius: 5px;
     border: 1px solid #cfcece;
     opacity: 1 !important;
   }
