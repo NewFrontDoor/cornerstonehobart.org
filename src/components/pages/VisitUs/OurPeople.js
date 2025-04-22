@@ -17,6 +17,12 @@ import jaccoImg from "../../../assets/people/Jacco Vonk.jpg";
 import robynImg from "../../../assets/people/Robyn van Rooyen.jpg";
 import geraldImg from "../../../assets/people/Gerald Coombe.jpg";
 import soniaImg from "../../../assets/people/Sonia Liang.jpg";
+import alphaImg from "../../../assets/people/Alpha Makiwa.JPG"
+import AmandaImg from "../../../assets/people/Amanda Bartle.JPG";
+import AndrewImg from "../../../assets/people/Andrew Greatbatch.JPG";
+import HeatherImg from "../../../assets/people/Heather Greatbatch.JPG";
+import IsabelleImg from "../../../assets/people/Isabelle Powell.JPG";
+
 import Person from "../../models/Person";
 
 class OurPeople extends Component {
@@ -75,7 +81,7 @@ class OurPeople extends Component {
 															<Person name="Derrick Clack" title="Elder" image={derrickImg} />
 															<Person name="Mark Powell" title="Pastor (Teaching Elder)" image={markImg} />
 															<Person name="Des Richardson" title="Elder" image={desImg} />
-															<Person name="Nathaniel Richardson" title="Elder" image={nathanielImg} />
+															{/* <Person name="Nathaniel Richardson" title="Elder" image={nathanielImg} /> */}
 															<Person name="Jacco Vonk" title="Elder" image={jaccoImg} />
 														</div>
 													</div>
@@ -86,6 +92,12 @@ class OurPeople extends Component {
 															<Person name="Jane Maarseveen" title="Deacon" image={janeImg} />
 															<Person name="David Van Emmerik" title="Deacon" image={davidImg} />
 															<Person name="Bevan Van Rooyen" title="Deacon" image={bevanImg} />
+															<Person name="Andrew Greatbatch" title="Deacon" image={AndrewImg} />
+															<Person name="Heather Greatbatch" title="Deacon" image={HeatherImg} />
+															<Person name="Amanda Bartle" title="Deacon" image={AmandaImg} />
+															<Person name="Alpha Makiwa" title="Deacon" image={alphaImg} />
+				
+
 														</div>
 													</div>
 
@@ -105,7 +117,8 @@ class OurPeople extends Component {
 															<Person name="Gerald Coombe" title="" image={geraldImg} />
 															<Person name="Libby Dilger" title="" image={libbyImg} />
 															<Person name="David Van Emmerik" title="Secretary" image={davidImg} />
-															<Person name="Robyn Van Rooyen " title="Treasurer" image={robynImg} />
+															<Person name="Robyn Van Rooyen" title="Treasurer" image={robynImg} />
+															<Person name="Isabelle Powell" title="" image={IsabelleImg} />
 														</div>
 													</div>
 
@@ -115,8 +128,7 @@ class OurPeople extends Component {
 
 															<div className="row">
 																<Person name="Mark Powell" title="Pastor (Teaching Elder)" image={markImg} />
-																<Person name="Libby Dilger" title="Administrator" image={libbyImg} />
-																<Person name="Sonia Liang" title="Trainee Administrator" image={soniaImg} />
+																<Person name="Isabelle Powell" title="" image={IsabelleImg} />
 															</div>
 														</div>
 													</div>
