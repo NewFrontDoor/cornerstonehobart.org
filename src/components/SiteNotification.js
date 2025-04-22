@@ -24,11 +24,11 @@ class SiteNotification extends Component {
 								<div className="header">
 									<h3>Welcome to Cornerstone Hobart</h3>
 								</div>
-								{/* <h5 className="text-center">Please note upcoming venue changes</h5> */}
+								<h5 className="text-center">Please note upcoming venue changes</h5>
 								<br/>
 								{this.props.content? <div className="text-center" style={{fontSize:'2rem', fontWeight:'bold'}}>{this.props.content}</div>:
 								<div className="text-center" style={{ paddingTop: "1em", paddingBottom: "1em" }}>
-									<img src={venueImage} className="text-center" style={{ maxWidth: "100%" }} />
+									{/* <img src={venueImage} className="text-center" style={{ maxWidth: "100%" }} /> */}
 								</div>}
 
 								<br/>
