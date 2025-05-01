@@ -128,7 +128,7 @@ class OurPeople extends Component {
 
 															<div className="row">
 																<Person name="Mark Powell" title="Pastor (Teaching Elder)" image={markImg} />
-																<Person name="Isabelle Powell" title="" image={IsabelleImg} />
+																<Person name="Isabelle Powell" title="(Administrator)" image={IsabelleImg} />
 															</div>
 														</div>
 													</div>
