@@ -118,7 +118,7 @@ class OurPeople extends Component {
 															<Person name="Libby Dilger" title="" image={libbyImg} />
 															<Person name="David Van Emmerik" title="Secretary" image={davidImg} />
 															<Person name="Robyn Van Rooyen" title="Treasurer" image={robynImg} />
-															<Person name="Isabelle Powell" title="" image={IsabelleImg} />
+															<Person name="Isabelle Powell" title="(Administrator)" image={IsabelleImg} />
 														</div>
 													</div>
 
