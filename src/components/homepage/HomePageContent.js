@@ -15,8 +15,7 @@ class HomePageContent extends Component {
               <LatestSermon />
               <WhereToFindUs />
               <UpcomingEvents />
-              <SiteNotification showNotification = {true} content={"Please note upcoming venue changes. We will be meeting at the Polish Club this Sunday the 11th of May. Address is: 20 New Town Rd, New Town 7008."} onClose={(state)=>{state = !state}}/>
-            </div>
+              </div>
           </div>
         </div>
       </section>
