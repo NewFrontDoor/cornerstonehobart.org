@@ -77,10 +77,8 @@ class OurPeople extends Component {
 																</strong>
 															</p>
 															<br />
-															<Person name="Simon Boonstra" title="Elder" image={simonImg} />
 															<Person name="Derrick Clack" title="Elder" image={derrickImg} />
 															<Person name="Mark Powell" title="Pastor (Teaching Elder)" image={markImg} />
-															<Person name="Des Richardson" title="Elder" image={desImg} />
 															{/* <Person name="Nathaniel Richardson" title="Elder" image={nathanielImg} /> */}
 															<Person name="Jacco Vonk" title="Elder" image={jaccoImg} />
 														</div>
@@ -95,9 +93,6 @@ class OurPeople extends Component {
 															<Person name="Andrew Greatbatch" title="Deacon" image={AndrewImg} />
 															<Person name="Heather Greatbatch" title="Deacon" image={HeatherImg} />
 															<Person name="Amanda Bartle" title="Deacon" image={AmandaImg} />
-															<Person name="Alpha Makiwa" title="Deacon" image={alphaImg} />
-				
-
 														</div>
 													</div>
 
