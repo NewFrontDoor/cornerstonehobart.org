@@ -22,6 +22,10 @@ import AmandaImg from "../../../assets/people/Amanda Bartle.JPG";
 import AndrewImg from "../../../assets/people/Andrew Greatbatch.JPG";
 import HeatherImg from "../../../assets/people/Heather Greatbatch.JPG";
 import IsabelleImg from "../../../assets/people/Isabelle Powell.JPG";
+import MickImg from "../../../assets/people/Mick Elliott.JPG";
+import BenjaminImg from "../../../assets/people/Benjamin Powell.JPG";
+import AllanImg from "../../../assets/people/Allan Clarke.JPG";
+import JaquesImg from "../../../assets/people/Jaques Van Der Hyde.JPG";
 
 import Person from "../../models/Person";
 
@@ -81,18 +85,19 @@ class OurPeople extends Component {
 															<Person name="Mark Powell" title="Pastor (Teaching Elder)" image={markImg} />
 															{/* <Person name="Nathaniel Richardson" title="Elder" image={nathanielImg} /> */}
 															<Person name="Jacco Vonk" title="Elder" image={jaccoImg} />
+															<Person name="Mick Elliott" title="Elder" image={MickImg} />
 														</div>
 													</div>
 													<div className="row">
 														<div className="col-md-12">
 															<h2 className="header-lightBlue text-center">Deacons</h2>
 															<Person name="Amy Glynn" title="Deacon" image={amyImg} />
-															<Person name="Jane Maarseveen" title="Deacon" image={janeImg} />
 															<Person name="David Van Emmerik" title="Deacon" image={davidImg} />
 															<Person name="Bevan Van Rooyen" title="Deacon" image={bevanImg} />
 															<Person name="Andrew Greatbatch" title="Deacon" image={AndrewImg} />
 															<Person name="Heather Greatbatch" title="Deacon" image={HeatherImg} />
 															<Person name="Amanda Bartle" title="Deacon" image={AmandaImg} />
+															<Person name="Benjamin Powell" title="Deacon" image={BenjaminImg} />
 														</div>
 													</div>
 
@@ -110,10 +115,10 @@ class OurPeople extends Component {
 															</p>
 
 															<Person name="Gerald Coombe" title="" image={geraldImg} />
-															<Person name="Libby Dilger" title="" image={libbyImg} />
 															<Person name="David Van Emmerik" title="Secretary" image={davidImg} />
-															<Person name="Robyn Van Rooyen" title="Treasurer" image={robynImg} />
+															<Person name="Allan Clarke" title="Treasurer" image={AllanImg} />
 															<Person name="Isabelle Powell" title="(Administrator)" image={IsabelleImg} />
+															<Person name="Jaques Van Der Hyde" title="" image={JaquesImg} />
 														</div>
 													</div>
 
